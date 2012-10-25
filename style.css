@@ -1,0 +1,73 @@
+/* My Basic CSS Style */
+
+
+/* Change the font-size of the specified html element. */
+
+/* Check out different units of measure for CSS properties.
+
+	http://www.w3schools.com/cssref/css_units.asp
+
+*/
+
+/* Change the font size of the normal p element. */
+#font-size{
+	font-size: xx-large;
+}
+
+/* Change the font color of the normal p element.
+
+	More information - http://www.w3schools.com/cssref/pr_text_color.asp
+
+*/
+#font-color{
+	color: blue;
+}
+
+/* Change the text-decoration of the normal p element.
+
+	More information - http://www.w3schools.com/cssref/pr_text_text-decoration.asp
+
+*/
+#text-decoration{
+	text-decoration: underline;
+}
+
+/* Change the font-family of the normal p element.
+
+	More information - http://www.w3schools.com/cssref/pr_font_font-family.asp
+
+*/
+#font-family{
+	font-family: "Comic Sans MS";
+}
+
+/* Change the text-align of the normal p element.
+
+	More information - http://www.w3schools.com/cssref/pr_font_font-family.asp
+
+*/
+#text-align{
+	text-align: center;
+}
+
+/* Box Model from slides. 
+
+	More Information
+
+	Margin - http://www.w3schools.com/cssref/pr_margin.asp
+	Padding - http://www.w3schools.com/cssref/pr_padding.asp
+	Width/Height - http://www.w3schools.com/cssref/pr_dim_height.asp
+	Border - http://www.w3schools.com/cssref/pr_border.asp
+	Background - http://www.w3schools.com/cssref/css3_pr_background.asp
+
+*/
+
+#box_model{
+	margin: 20px 20px 20px 20px;
+	padding: 10px 10px 10px 10px;
+	width: 300px;
+	height: 300px;
+	border: 5px solid black;
+	background: red;
+}
+
