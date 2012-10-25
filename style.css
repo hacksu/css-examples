@@ -9,44 +9,44 @@
 
 */
 
-/* Change the font size of the normal p element. */
-#font-size{
+/* Change the font size of the selected element. */
+.larger_font{
 	font-size: xx-large;
 }
 
-/* Change the font color of the normal p element.
+/* Change the font color of the selected element.
 
 	More information - http://www.w3schools.com/cssref/pr_text_color.asp
 
 */
-#font-color{
+.blue{
 	color: blue;
 }
 
-/* Change the text-decoration of the normal p element.
+/* Change the text-decoration of the selected element.
 
 	More information - http://www.w3schools.com/cssref/pr_text_text-decoration.asp
 
 */
-#text-decoration{
+.underline{
 	text-decoration: underline;
 }
 
-/* Change the font-family of the normal p element.
+/* Change the font-family of the selected element.
 
 	More information - http://www.w3schools.com/cssref/pr_font_font-family.asp
 
 */
-#font-family{
+.comic_sans{
 	font-family: "Comic Sans MS";
 }
 
-/* Change the text-align of the normal p element.
+/* Change the text-align of the selected element.
 
 	More information - http://www.w3schools.com/cssref/pr_font_font-family.asp
 
 */
-#text-align{
+.center{
 	text-align: center;
 }
 
@@ -54,11 +54,11 @@
 
 	More Information
 
-	Margin - http://www.w3schools.com/cssref/pr_margin.asp
-	Padding - http://www.w3schools.com/cssref/pr_padding.asp
-	Width/Height - http://www.w3schools.com/cssref/pr_dim_height.asp
-	Border - http://www.w3schools.com/cssref/pr_border.asp
-	Background - http://www.w3schools.com/cssref/css3_pr_background.asp
+	margin - http://www.w3schools.com/cssref/pr_margin.asp
+	padding - http://www.w3schools.com/cssref/pr_padding.asp
+	width/height - http://www.w3schools.com/cssref/pr_dim_height.asp
+	border - http://www.w3schools.com/cssref/pr_border.asp
+	background - http://www.w3schools.com/cssref/css3_pr_background.asp
 
 */
 
@@ -71,3 +71,16 @@
 	background: red;
 }
 
+/* Define a custom link
+
+	More Information
+	
+	:hover - http://www.w3schools.com/cssref/sel_hover.asp
+	
+*/ 
+
+#custom_link:hover{
+	text-decoration: overline;
+	color: green;
+	font-size: xx-large;
+}
