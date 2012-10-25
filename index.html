@@ -3,9 +3,23 @@
 <html>
   <head>
     <title>CSS Examples</title>
+    
     <!-- Link to the CSS file we will be styling our document with. -->
     <link REL=StyleSheet HREF="style.css" TYPE="text/css" />
+    
+    <!-- Internal stylesheet example. -->
+    <style>
+    
+    	#internal{
+	    	color: orange;
+	    	font-size: 4em;
+    	}
+    
+    </style>
+
+
   </head>
+
   <body>
   
   <p>normal</p>
@@ -23,6 +37,11 @@
   <div id="box_model"></div>
   
   <a id="custom_link" href="#">custom link</a>
+  
+  <p id="internal">internal style</p>
+  
+  <!-- Inline style example. -->
+  <p style="text-align:right; text-transform: uppercase;">inline style</p>
   
   </body>
 </html>
